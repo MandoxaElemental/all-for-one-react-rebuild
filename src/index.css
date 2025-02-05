@@ -1,0 +1,202 @@
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.contracker{
+  background-image: url(/src/assets/Contracker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  max-width: 1000px;
+  width: 1000px;
+  max-height: 600px;
+  height: 600px;
+}
+
+.buttonGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 80px;
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.emblem{
+  height: 100px;
+  width: 100px;
+}
+
+.emblem:hover{
+  opacity: 80%;
+}
+
+.briefing{
+  grid-column: 1/4;
+  background-color: #F39157;
+  color: #B8383B;
+  border-radius: 50px;
+  border: solid #B8383B ;
+  border-width: medium;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  text-align: center;
+}
+
+.briefing:hover{
+  opacity: 80%
+}
+
+
+.infoBox{
+  width: 320px;
+  height: 220px;
+  margin-top: 110px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.mercIcon{
+  height: 125px;
+  width: 125px;
+}
+
+.job{
+  padding-top: 15px;
+  margin-right: 50px;
+  font-size: 22px;
+}
+.activity{
+  top: 100px;
+  left: 10px;
+  grid-column: 1 / 3;
+  font-size: 20px;
+}
+
+.merc{
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  height: 80%;
+  width: auto;
+}
+
+.merc:hover{
+  filter:brightness(80%);
+}
+
+.game-box{
+  background-color: rgba(128, 128, 128, 0.478);
+  margin: 20px 300px 0px 50px;
+  height: 450px;
+  max-height: 450px;
+  border-radius: 20px;
+  display: grid;
+  grid-row: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input{
+  color: black;
+  background-color: #f39057b3;
+  height: 50px;
+  width: 400px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.backBtn{
+  background-color: #F39157;
+  color: #B8383B;
+  border-radius: 50px;
+  border: solid #B8383B ;
+  border-width: medium;
+  height: 50px;
+  width: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+}
+
+.submitBtn{
+  background-color: #F39157;
+  color: #B8383B;
+  border-radius: 50px;
+  border: solid #B8383B ;
+  border-width: medium;
+  height: 50px;
+  width: 200px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.submitBtn:hover{
+  opacity: 80%;
+}
+.backBtn:hover{
+  opacity: 80%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3C3E3C;
+  height: 64px;
+  padding-left: 50px;
+}
+
+.textBox{
+  background-color: #f39057b3;
+  height: 125px;
+  max-height: 125px;
+  width: 400px;
+}
+
+.mobileIcon{
+  width: 125px;
+  display: none;
+}
+
+.mercBG{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.scoutBG{
+  background-image: url(src/assets/backgrounds/Dustbowl.jpg);
+}
+.soldierBG{
+  background-image: url(src/assets/backgrounds/Phoenix.png);
+}
+.demomanBG{
+  background-image: url(src/assets/backgrounds/Degroot_Keep.png);
+}
+.engineerBG{
+  background-image: url(src/assets/backgrounds/Upward.png);
+}
+
+@media (max-width: 768px) {
+  .contracker{
+    display: flex;
+    justify-content: center;
+  }
+  .infoBox{
+      display: none;
+  }
+  .briefing{
+      height: 50px;
+      font-size: 25px;
+  }
+  .buttonGrid{
+      margin-top: 50px;
+      padding-left: 0px;
+      padding-top: 0px;
+      padding-bottom: 50%;
+  }
+}
