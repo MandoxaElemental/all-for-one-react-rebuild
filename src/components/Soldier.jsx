@@ -25,7 +25,6 @@ const SoldierPage = () => {
   const displayTxt = () => {
       FetchLink = ('https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/addtwonumbers/addtwonumbers/' + userInput + "/" + userInput2)
       getSoldier()
-      setDisplay()
 }
     
   return (
@@ -69,6 +68,10 @@ const SoldierPage = () => {
             </button>
           </div>
           <div className="textBox flex justify-center text-xl p-2">
+          {
+            display.length == 0 && <h1 id="result">Listen up Maggot, give me two numbers so that I can show you how smart I truly am...</h1>
+
+        }
             <h1 id="result">
               {display}
             </h1>

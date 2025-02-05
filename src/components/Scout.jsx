@@ -22,7 +22,7 @@ const ScoutPage = () => {
       const displayTxt = () => {
           FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/sayhello/helloworld/${userInput}`
           getScout()
-          setDisplay()
+          console.log(display)
     }
     
     return(
@@ -42,9 +42,9 @@ const ScoutPage = () => {
       <button onClick={displayTxt} className="submitBtn" id="scoutBtn">Enter</button>
     </div>
     <div className="textBox flex justify-center text-xl p-2">
-        {/* {
-            display.length == 0 && <h1 id="Result">The Text Box is Empty</h1>
-        } */}
+        {
+            display.length == 0 && <h1 id="Result">Yo... You're the new guy right? What's ya name pal?</h1>
+        }
       <h1 id="result">{display}</h1>
     </div>
     <div>

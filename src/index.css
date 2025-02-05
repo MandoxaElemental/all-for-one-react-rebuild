@@ -174,11 +174,26 @@ input{
 .soldierBG{
   background-image: url(src/assets/backgrounds/Phoenix.png);
 }
+.pyroBG{
+  background-image: url(src/assets/backgrounds/2Fort.png);
+}
 .demomanBG{
   background-image: url(src/assets/backgrounds/Degroot_Keep.png);
 }
+.heavyBG{
+  background-image: url(src/assets/backgrounds/Barnblitz.png);
+}
 .engineerBG{
   background-image: url(src/assets/backgrounds/Upward.png);
+}
+.medicBG{
+  background-image: url(src/assets/backgrounds/Process.png);
+}
+.sniperBG{
+  background-image: url(src/assets/backgrounds/Borneo.jpg);
+}
+.spyBG{
+  background-image: url(src/assets/backgrounds/Swiftwater.jpg);
 }
 
 @media (max-width: 768px) {

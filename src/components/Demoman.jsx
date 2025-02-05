@@ -21,7 +21,6 @@ const DemomanPage = () => {
           const displayTxt = () => {
               FetchLink = ('https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/reverseit/reversedword/' + userInput)
               getDemoman()
-              setDisplay()
         }
     
     return(
@@ -38,6 +37,9 @@ const DemomanPage = () => {
             <button onClick={displayTxt} className="submitBtn" id="demomanBtn">Enter</button>
         </div>
         <div className="textBox flex justify-center text-xl p-2">
+        {
+            display.length == 0 && <h1 id="Result">Ugggghhh... Shouldn't *hic* hae drank sae much last night... Whit did ye juist say?</h1>
+        }
             <h1 id="result">{display}</h1>
         </div>
             <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>

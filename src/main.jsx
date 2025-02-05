@@ -5,7 +5,6 @@ import App from './App.jsx'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import ScoutPage from './components/Scout.jsx'
 import SoldierPage from './components/Soldier.jsx'
-import MainMenuScreen from './components/MainMenu.jsx'
 import PyroPage from './components/Pyro.jsx'
 import DemomanPage from './components/Demoman.jsx'
 import EngineerPage from './components/Engineer.jsx'
@@ -13,6 +12,7 @@ import HeavyPage from './components/Heavy.jsx'
 import MedicPage from './components/Medic.jsx'
 import SniperPage from './components/Sniper.jsx'
 import SpyPage from './components/Spy.jsx'
+import MadLibPage from './components/MadLib.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -28,7 +28,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='medic' element={<MedicPage />} />
       <Route path='sniper' element={<SniperPage />} />
       <Route path='spy' element={<SpyPage />} />
-      {/* <Route path='/' element={<App />} /> */}
+      <Route path='madlib' element={<MadLibPage />} />
     </Routes>
     </BrowserRouter>
   </StrictMode>,

@@ -40,9 +40,7 @@ const MainMenuScreen = () => {
                         {MedicLink}
                         {SniperLink}
                         {SpyLink}
-                        <a className="briefing" href="/pages/madlib.html">
-                                <button id="briefingBtn"><h2>Mission Briefing</h2></button>
-                            </a>
+                        <Link to='madlib' className="briefing"><button id="briefingBtn"><h2>Mission Briefing</h2></button></Link>
                         </div>
                             {scoutHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Scout_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Rapid Recovery</h3>
