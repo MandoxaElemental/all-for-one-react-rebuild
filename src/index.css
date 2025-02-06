@@ -97,7 +97,7 @@ body {
 
 .game-box{
   background-color: rgba(128, 128, 128, 0.478);
-  margin: 20px 300px 0px 50px;
+  margin: 20px 300px 50px 50px;
   height: 450px;
   max-height: 450px;
   border-radius: 20px;
@@ -280,5 +280,16 @@ input{
   }
   .textBox{
       width: auto;
+  }
+  .contrackerInner{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    height: 350px;
+  }
+  .madlibGrid{
+    width: 200px;
+    margin: 0px 50px
   }
 }

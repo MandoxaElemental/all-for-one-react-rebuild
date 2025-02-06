@@ -10,10 +10,11 @@ const MadLibPage = () => {
     </div> */}
         <div className='flex justify-center'>
         <div className='contracker'>
+        <div>
         <div className="title">
-    <h1 className="text-xl">Mission Briefing</h1>
-    <h2>(MadLib)</h2>
-    </div>
+            <h1 className="text-xl">Mission Briefing</h1>
+            <h2>(MadLib)</h2>
+        </div>
     <div className="mobileMadlib">
         <div className="contrackerInner grid md:grid-cols-2 grid-cols-1 pt-5">
             <div className="madlibGrid grid md:grid-cols-2 gap-2 text-sm mr-[50px]">
@@ -46,6 +47,7 @@ const MadLibPage = () => {
             </div>
         </div>
     </div>
+        </div>
         </div>
         </div>
     </>
