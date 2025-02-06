@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import spyAudio from "/public/assets/audio/SpyAudio.wav"
+import spyAudio from "/assets/audio/SpyAudio.wav"
 
 const SpyPage = () => {
     function play(){
@@ -50,7 +50,7 @@ const SpyPage = () => {
     <>
         <div className="mercBG spyBG">
         <div className="header"><h1>Restaurant Picker</h1></div>
-    <img onClick={play} className="merc" id="spy" src="../public/assets/characters/Spy.png" alt="Spy" />
+    <img onClick={play} className="merc" id="spy" src="../assets/characters/Spy.png" alt="Spy" />
     <div className="game-box">
         <div className="flex justify-center">
             <img className="mobileIcon" src="./" alt="spy" />

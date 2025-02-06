@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import scoutAudio from "/public/assets/audio/ScoutAudio.wav"
+import scoutAudio from "/assets/audio/ScoutAudio.wav"
 const ScoutPage = () => {
     function play(){
         new Audio(scoutAudio).play()

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import demomanAudio from "/public/assets/audio/DemomanAudio.wav"
+import demomanAudio from "/assets/audio/DemomanAudio.wav"
 const DemomanPage = () => {
 
     function play(){
@@ -27,10 +27,10 @@ const DemomanPage = () => {
     <>
     <div className="mercBG demomanBG">
     <div className="header flex justify-center text-center"><h1>Reverse It (Alphanumerical)</h1></div>
-    <img onClick={play} className="merc" id="demoman" src="../public/assets/characters/Demoman.png" alt="Demoman"/>
+    <img onClick={play} className="merc" id="demoman" src="../assets/characters/Demoman.png" alt="Demoman"/>
         <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../public/assets/charIcons/Demoman_Icon.jpg" alt="demoman" />
+            <img className="mobileIcon" src="../assets/charIcons/Demoman_Icon.jpg" alt="demoman" />
         </div>
         <input type="text" onChange={(event) => setUserInput(event.target.value)} placeholder="Scrumpy = ypmurcS" id="reverseItAlphaInput" className="bg-[#f39057b3]"/>
         <div>
