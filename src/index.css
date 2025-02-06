@@ -210,7 +210,6 @@ input{
 
 .madlibGrid{
   width: 420px;
-  margin: 0px 50px
 }
 .contrackerInner{
   padding: 0 100px
@@ -232,8 +231,12 @@ input{
   background-color: #3C3E3C;
   border: solid #F39157;
   color: white;
-  margin: 10px 100px;
+  margin: 0 auto;
   padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1024px) {
@@ -289,7 +292,7 @@ input{
     height: 350px;
   }
   .madlibGrid{
-    width: 200px;
+    width: auto;
     margin: 0px 50px
   }
 }
