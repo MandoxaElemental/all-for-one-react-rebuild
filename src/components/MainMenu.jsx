@@ -29,7 +29,7 @@ const MainMenuScreen = () => {
     const SpyLink = <Link to='spy'><button className="mercBtn" onMouseEnter={() => setSpyHover(true)} onMouseLeave={() => setSpyHover(false)} id="spyBtn"><img className='emblem' src="/src/assets/emblems/Spy_emblem_RED.png" alt="Spy Emblem" /></button>                        </Link>
     return(
         <>
-        <div className='grid md:grid-cols-2'>
+        <div className='contrackerGrid'>
                         <div className="buttonGrid grid-cols-3">
                         {ScoutLink}
                         {SoldierLink}
@@ -42,57 +42,57 @@ const MainMenuScreen = () => {
                         {SpyLink}
                         <Link to='madlib' className="briefing"><button id="briefingBtn"><h2>Mission Briefing</h2></button></Link>
                         </div>
-                            {scoutHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Scout_Icon.jpg" alt="scoutTest"/>
+                            {scoutHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Scout_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Rapid Recovery</h3>
                             <div className="activity"><h3 id="activity">Say Hello</h3></div>
                             </div>
                             :
-                            soldierHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
+                            soldierHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Rapid Recovery</h3>
                             <div className="activity"><h3 id="activity">Say Hello</h3></div>
                             </div>
                             :
-                            soldierHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
+                            soldierHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Shock & Awe</h3>
                             <div className="activity"><h3 id="activity">Add Two Numbers</h3></div>
                             </div>
                             :
-                            pyroHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Pyro_Icon.jpg" alt="scoutTest"/>
+                            pyroHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Pyro_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Pyrotechnics</h3>
                             <div className="activity"><h3 id="activity">Magic 8 Ball</h3></div>
                             </div>
                             :
-                            demomanHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Demoman_Icon.jpg" alt="scoutTest"/>
+                            demomanHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Demoman_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">House Cleaning</h3>
                             <div className="activity"><h3 id="activity">Reverse It (Alphanumerical)</h3></div>
                             </div>
                             :
-                            heavyHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Heavy_Icon.jpg" alt="scoutTest"/>
+                            heavyHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Heavy_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Mow Down</h3>
                             <div className="activity"><h3 id="activity">Greater Than or Less Than</h3></div>
                             </div>
                             :
-                            engineerHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Engineer_Icon.jpg" alt="scoutTest"/>
+                            engineerHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Engineer_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Area Denial</h3>
                             <div className="activity"><h3 id="activity">Reverse It (Numerical-Only)</h3></div>
                             </div>
                             :
-                            medicHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Medic_Icon.jpg" alt="scoutTest"/>
+                            medicHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Medic_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Doctor Assisted Homicide</h3>
                             <div className="activity"><h3 id="activity">Asking Questions</h3></div>
                             </div>
                             :
-                            sniperHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Sniper_Icon.jpg" alt="scoutTest"/>
+                            sniperHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Sniper_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Precision Elimination</h3>
                             <div className="activity"><h3 id="activity">Odd or Even</h3></div>
                             </div>
                             :
-                            spyHover ? <div className="infoBox grid grid-cols-2"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Spy_Icon.jpg" alt="scoutTest"/>
+                            spyHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/src/assets/charIcons/Spy_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Uncloak & Dagger</h3>
                             <div className="activity"><h3 id="activity">Restaruant Picker</h3></div>
                             </div>
                             :
-                            <div className="infoBox grid grid-cols-2">
+                            <div className="infoBox">
                             <img className="mercIcon" id="mercIcon" src="/src/assets/Team_Fortress_2_style_logo.png" alt="Icon"></img>
                             <h3 id="job" className="job"></h3>
                             <div className="activity"><h3 id="activity"></h3></div>

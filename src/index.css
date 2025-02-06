@@ -4,6 +4,11 @@ body {
   color: white;
 }
 
+.contrackerGrid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .contracker{
   background-image: url(/src/assets/Contracker.png);
   background-repeat: no-repeat;
@@ -57,6 +62,8 @@ body {
   margin-top: 110px;
   margin-left: 70px;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .mercIcon{
@@ -196,22 +203,84 @@ input{
   background-image: url(src/assets/backgrounds/Swiftwater.jpg);
 }
 
-@media (max-width: 768px) {
-  .contracker{
+.title{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.madlibGrid{
+  width: 420px;
+  margin: 0px 50px
+}
+/* .contrackerInner{
+  padding-left: 350px;
+  padding-top: 10px;
+} */
+
+.madLibInput{
+  background-color: #f39057b3;
+  height: 35px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.madlibBtns{
+  padding-right: 400px;
+  padding-top: 100px;
+}
+
+#resultBox{
+  background-color: #3C3E3C;
+  border: solid #F39157;
+  color: white;
+  margin: 10px 100px;
+  padding: 50px;
+}
+
+@media (max-width: 1024px) {
+  .contrackerGrid{
     display: flex;
     justify-content: center;
   }
   .infoBox{
       display: none;
   }
+    .buttonGrid{
+      margin: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contracker{
+    display: flex;
+    justify-content: center;
+  }
+
   .briefing{
       height: 50px;
       font-size: 25px;
   }
-  .buttonGrid{
-      margin-top: 50px;
-      padding-left: 0px;
-      padding-top: 0px;
-      padding-bottom: 50%;
+  .merc{
+      display: none;
+  }
+
+  .game-box{
+      margin: 0px;
+      height: 600px;
+      max-height: 600px;
+      border-radius: 0px;
+      width: 100%;
+  }
+
+  .mobileIcon{
+      display: flex;
+  }
+
+  input{
+      width: auto;
+  }
+  .textBox{
+      width: auto;
   }
 }

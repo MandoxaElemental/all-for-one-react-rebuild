@@ -6,7 +6,9 @@ function App() {
     <>
         <div className='flex justify-center'>
         <div className='contracker'>
+        <div className="flex justify-center"></div>
         <MainMenuScreen />
+        <div></div>
         </div>
         </div>
     </>
