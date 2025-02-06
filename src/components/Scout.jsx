@@ -31,7 +31,7 @@ const ScoutPage = () => {
   <div className="header">
     <h1>Say Hello</h1>
   </div>
-  <img onClick={play} className="merc" id="scout" src="src/assets/characters/Scout.png" alt="Scout" />
+  <img onClick={play} className="merc" id="scout" src="/assets/characters/Scout.png" alt="Scout" />
   <div className="game-box">
     <div className="flex justify-center">
       <img className="mobileIcon" src="src/assets/charIcons/Scout_Icon.jpg" alt="scout"/>
