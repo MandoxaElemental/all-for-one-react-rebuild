@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react"
-import soldierAudio from "/src/assets/audio/SoldierAudio.wav"
+import soldierAudio from "/public/assets/audio/SoldierAudio.wav"
 
 
 
@@ -37,14 +37,14 @@ const SoldierPage = () => {
         onClick={play}
           className="merc"
           id="soldier"
-          src="src/assets/characters/Soldier.png"
+          src="../public/assets/characters/Soldier.png"
           alt="Soldier"
         />
         <div className="game-box">
           <div className="flex justify-center">
             <img
               className="mobileIcon"
-              src="src/assets/charIcons/Soldier_Icon.jpg"
+              src="../public/assets/charIcons/Soldier_Icon.jpg"
               alt="soldier"
             />
           </div>

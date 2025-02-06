@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import medicAudio from "/src/assets/audio/MedicAudio.mp3"
+import medicAudio from "/public/assets/audio/MedicAudio.mp3"
 
 const MedicPage = () => {
 
@@ -31,10 +31,10 @@ const MedicPage = () => {
     <>
         <div className="mercBG medicBG">
         <div className="header"><h1>Asking Questions</h1></div>
-    <img onClick={play} className="merc" id="medic" src="/src/assets/characters/Medic.png" alt="Medic" />
+    <img onClick={play} className="merc" id="medic" src="../public/assets/characters/Medic.png" alt="Medic" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="/src/assets/charIcons/Medic_Icon.jpg" alt="demoman" />
+            <img className="mobileIcon" src="../public/assets/charIcons/Medic_Icon.jpg" alt="demoman" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="ex.(herbert)" id="askingQuestions1Input" className="bg-[#f39057b3]" />
         <input onChange={(event) => setUserInput2(event.target.value)} type="text" placeholder="1-12" id="askingQuestions2Input" className="bg-[#f39057b3]" />

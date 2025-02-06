@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import pyroAudio from "/src/assets/audio/PyroAudio.wav"
+import pyroAudio from "/public/assets/audio/PyroAudio.wav"
 
 const PyroPage = () => {
 
@@ -31,11 +31,11 @@ const PyroPage = () => {
         <div className="mercBG pyroBG">
             <div className="header">
         <h1 className="activity">Magic 8 Ball</h1>
-        <img id="goggles" src="/src/assets/Goggles.png" alt="goggles" /></div>
-    <img onClick={play} className="merc" id="pyro" src="/src/assets/characters/Pyro.png" alt="Pyro" />
+        <img id="goggles" src="../public/assets/Goggles.png" alt="goggles" /></div>
+    <img onClick={play} className="merc" id="pyro" src="../public/assets/characters/Pyro.png" alt="Pyro" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="/src/assets/charIcons/Pyro_Icon.jpg" alt="pyro" />
+            <img className="mobileIcon" src="../public/assets/charIcons/Pyro_Icon.jpg" alt="pyro" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" id="magic8BallInput" className="bg-[#f39057b3]" />
         <div>

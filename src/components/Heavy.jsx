@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import heavyAudio from "/src/assets/audio/HeavyAudio.wav"
+import heavyAudio from "/public/assets/audio/HeavyAudio.wav"
 
 const HeavyPage = () => {
 
@@ -31,10 +31,10 @@ const HeavyPage = () => {
     <>
         <div className="mercBG heavyBG">
         <div className="header"><h1>Greater Than or Less Than</h1></div>
-    <img onClick={play} className="merc" id="heavy" src="/src/assets/characters/Heavy.png" alt="Heavy" />
+    <img onClick={play} className="merc" id="heavy" src="../public/assets/characters/Heavy.png" alt="Heavy" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="/src/assets/charIcons/Heavy_Icon.jpg" alt="heavy" />
+            <img className="mobileIcon" src="../public/assets/charIcons/Heavy_Icon.jpg" alt="heavy" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="00" id="greaterThanInput1" className="bg-[#f39057b3]" />
         <input onChange={(event) => setUserInput2(event.target.value)} type="text" placeholder="00" id="greaterThanInput2" className="bg-[#f39057b3]" />

@@ -10,7 +10,7 @@ body {
 }
 
 .contracker{
-  background-image: url(/src/assets/Contracker.png);
+  background-image: url(/public/assets/Contracker.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -176,31 +176,31 @@ input{
 }
 
 .scoutBG{
-  background-image: url(src/assets/backgrounds/Dustbowl.jpg);
+  background-image: url(/public/assets/backgrounds/Dustbowl.jpg);
 }
 .soldierBG{
-  background-image: url(src/assets/backgrounds/Phoenix.png);
+  background-image: url(/public/assets/backgrounds/Phoenix.png);
 }
 .pyroBG{
-  background-image: url(src/assets/backgrounds/2Fort.png);
+  background-image: url(/public/assets/backgrounds/2Fort.png);
 }
 .demomanBG{
-  background-image: url(src/assets/backgrounds/Degroot_Keep.png);
+  background-image: url(/public/assets/backgrounds/Degroot_Keep.png);
 }
 .heavyBG{
-  background-image: url(src/assets/backgrounds/Barnblitz.png);
+  background-image: url(/public/assets/backgrounds/Barnblitz.png);
 }
 .engineerBG{
-  background-image: url(src/assets/backgrounds/Upward.png);
+  background-image: url(/public/assets/backgrounds/Upward.png);
 }
 .medicBG{
-  background-image: url(src/assets/backgrounds/Process.png);
+  background-image: url(/public/assets/backgrounds/Process.png);
 }
 .sniperBG{
-  background-image: url(src/assets/backgrounds/Borneo.jpg);
+  background-image: url(/public/assets/backgrounds/Borneo.jpg);
 }
 .spyBG{
-  background-image: url(src/assets/backgrounds/Swiftwater.jpg);
+  background-image: url(/public/assets/backgrounds/Swiftwater.jpg);
 }
 
 .title{
@@ -212,10 +212,9 @@ input{
   width: 420px;
   margin: 0px 50px
 }
-/* .contrackerInner{
-  padding-left: 350px;
-  padding-top: 10px;
-} */
+.contrackerInner{
+  padding: 0 100px
+}
 
 .madLibInput{
   background-color: #f39057b3;
@@ -226,8 +225,7 @@ input{
 }
 
 .madlibBtns{
-  padding-right: 400px;
-  padding-top: 100px;
+
 }
 
 #resultBox{

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import engineerAudio from "/src/assets/audio/EngineerAudio.wav"
+import engineerAudio from "/public/assets/audio/EngineerAudio.wav"
 
 const EngineerPage = () => {
     function play(){
@@ -27,10 +27,10 @@ const EngineerPage = () => {
     <>
         <div className="mercBG engineerBG">
         <div className="header"><h1>Reverse It (Numerical)</h1></div>
-    <img onClick={play} className="merc" id="engineer" src="/src/assets/characters/Engineer.png" alt="Engineer"/>
+    <img onClick={play} className="merc" id="engineer" src="../public/assets/characters/Engineer.png" alt="Engineer"/>
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="/src/assets/charIcons/Engineer_Icon.jpg" alt="engineer"/>
+            <img className="mobileIcon" src="../public/assets/charIcons/Engineer_Icon.jpg" alt="engineer"/>
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="123 = 321" id="reverseItNumericalInput" className="bg-[#f39057b3]"/>
         <div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import sniperAudio from "/src/assets/audio/SniperAudio.wav"
+import sniperAudio from "/public/assets/audio/SniperAudio.wav"
 
 const SniperPage = () => {
     function play(){
@@ -28,10 +28,10 @@ const SniperPage = () => {
     <>
         <div className="mercBG sniperBG">
         <div class="header"><h1>Odd or Even</h1></div>
-            <img onClick={play} class="merc" id="sniper" src="/src/assets/characters/Sniper.png" alt="Sniper" />
+            <img onClick={play} class="merc" id="sniper" src="../public/assets/characters/Sniper.png" alt="Sniper" />
             <div class="game-box">
                 <div class="flex justify-center">
-                    <img class="mobileIcon" src="/src/assets/charIcons/Sniper_Icon.jpg" alt="sniper" />
+                    <img class="mobileIcon" src="../public/assets/charIcons/Sniper_Icon.jpg" alt="sniper" />
                 </div>
                 <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="ex. 7" id="oddOrEvenInput" className="bg-[#f39057b3]" />
                 <div>
