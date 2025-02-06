@@ -28,13 +28,13 @@
 
 
 ### All For One React Rebuild Challenge - Build_GitHub Repository Link:
-[All For One React Rebuild Challenge - Build GitHub Repository Link]()
+[All For One React Rebuild Challenge - Build GitHub Repository Link](https://github.com/MandoxaElemental/all-for-one-react-rebuild)
 
 ### All For One React Rebuild Challenge - Figma Link:
-[All For One React Rebuild Challenge - Build Figma Link]()
-### All For One React Rebuild Challenge - Vercel Link
-:
-[All For One React Rebuild Challenge - Build Vercel Link]()
+[All For One React Rebuild Challenge - Build Figma Link](https://www.figma.com/design/dBB4Um2MPjuiS62RIxxGhT/All-for-One?t=zNw9rAcbUJUKITQr-1)
+
+### All For One React Rebuild Challenge - Vercel Link:
+[All For One React Rebuild Challenge - Build Vercel Link](https://all-for-one-react-rebuild-xi.vercel.app/)
 
 This has been Peer Reviewed By: 
 > Comments: 
