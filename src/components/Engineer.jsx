@@ -30,7 +30,7 @@ const EngineerPage = () => {
     <img onClick={play} className="merc" id="engineer" src="../assets/characters/Engineer.png" alt="Engineer"/>
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../assets/charIcons/Engineer_Icon.jpg" alt="engineer"/>
+            <img onClick={play} className="mobileIcon" src="../assets/charIcons/Engineer_Icon.jpg" alt="engineer"/>
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="123 = 321" id="reverseItNumericalInput" className="bg-[#f39057b3]"/>
         <div>

@@ -34,7 +34,7 @@ const MedicPage = () => {
     <img onClick={play} className="merc" id="medic" src="../assets/characters/Medic.png" alt="Medic" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../assets/charIcons/Medic_Icon.jpg" alt="demoman" />
+            <img onClick={play} className="mobileIcon" src="../assets/charIcons/Medic_Icon.jpg" alt="demoman" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="ex.(herbert)" id="askingQuestions1Input" className="bg-[#f39057b3]" />
         <input onChange={(event) => setUserInput2(event.target.value)} type="text" placeholder="1-12" id="askingQuestions2Input" className="bg-[#f39057b3]" />

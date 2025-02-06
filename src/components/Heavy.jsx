@@ -34,7 +34,7 @@ const HeavyPage = () => {
     <img onClick={play} className="merc" id="heavy" src="../assets/characters/Heavy.png" alt="Heavy" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../assets/charIcons/Heavy_Icon.jpg" alt="heavy" />
+            <img onClick={play} className="mobileIcon" src="../assets/charIcons/Heavy_Icon.jpg" alt="heavy" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="00" id="greaterThanInput1" className="bg-[#f39057b3]" />
         <input onChange={(event) => setUserInput2(event.target.value)} type="text" placeholder="00" id="greaterThanInput2" className="bg-[#f39057b3]" />

@@ -30,7 +30,7 @@ const DemomanPage = () => {
     <img onClick={play} className="merc" id="demoman" src="../assets/characters/Demoman.png" alt="Demoman"/>
         <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../assets/charIcons/Demoman_Icon.jpg" alt="demoman" />
+            <img onClick={play} className="mobileIcon" src="../assets/charIcons/Demoman_Icon.jpg" alt="demoman" />
         </div>
         <input type="text" onChange={(event) => setUserInput(event.target.value)} placeholder="Scrumpy = ypmurcS" id="reverseItAlphaInput" className="bg-[#f39057b3]"/>
         <div>

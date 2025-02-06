@@ -34,7 +34,7 @@ const ScoutPage = () => {
   <img onClick={play} className="merc" id="scout" src="/assets/characters/Scout.png" alt="Scout" />
   <div className="game-box">
     <div className="flex justify-center">
-      <img className="mobileIcon" src="/assets/charIcons/Scout_Icon.jpg" alt="scout"/>
+      <img onClick={play} className="mobileIcon" src="/assets/charIcons/Scout_Icon.jpg" alt="scout"/>
     </div>
     <input type="text" onChange={(event) => setUserInput(event.target.value)} placeholder="Jeremy" id="sayHelloInput" className="bg-[#f39057b3]"
     />

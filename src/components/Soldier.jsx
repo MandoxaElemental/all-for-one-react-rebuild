@@ -42,7 +42,7 @@ const SoldierPage = () => {
         />
         <div className="game-box">
           <div className="flex justify-center">
-            <img
+            <img onClick={play}
               className="mobileIcon"
               src="../assets/charIcons/Soldier_Icon.jpg"
               alt="soldier"

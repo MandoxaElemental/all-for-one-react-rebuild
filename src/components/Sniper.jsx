@@ -31,7 +31,7 @@ const SniperPage = () => {
             <img onClick={play} class="merc" id="sniper" src="../assets/characters/Sniper.png" alt="Sniper" />
             <div class="game-box">
                 <div class="flex justify-center">
-                    <img class="mobileIcon" src="../assets/charIcons/Sniper_Icon.jpg" alt="sniper" />
+                    <img onClick={play} class="mobileIcon" src="../assets/charIcons/Sniper_Icon.jpg" alt="sniper" />
                 </div>
                 <input onChange={(event) => setUserInput(event.target.value)} type="text" placeholder="ex. 7" id="oddOrEvenInput" className="bg-[#f39057b3]" />
                 <div>

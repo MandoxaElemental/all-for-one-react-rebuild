@@ -35,7 +35,7 @@ const PyroPage = () => {
     <img onClick={play} className="merc" id="pyro" src="../assets/characters/Pyro.png" alt="Pyro" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img className="mobileIcon" src="../assets/charIcons/Pyro_Icon.jpg" alt="pyro" />
+            <img onClick={play} className="mobileIcon" src="../assets/charIcons/Pyro_Icon.jpg" alt="pyro" />
         </div>
         <input onChange={(event) => setUserInput(event.target.value)} type="text" id="magic8BallInput" className="bg-[#f39057b3]" />
         <div>
