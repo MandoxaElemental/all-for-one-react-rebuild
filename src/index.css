@@ -223,9 +223,6 @@ input{
   text-align: center;
 }
 
-.madlibBtns{
-
-}
 
 #resultBox{
   background-color: #3C3E3C;
@@ -294,5 +291,8 @@ input{
   .madlibGrid{
     width: auto;
     margin: 0px 50px
+  }
+  #resultBox{
+    padding: 10px;
   }
 }

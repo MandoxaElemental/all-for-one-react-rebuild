@@ -78,8 +78,9 @@ const MadLibPage = () => {
                 {
                     display.length == 0 && <h1 id="Result">Some Entries Appear to be Missing</h1>
                 }
-                
+                <div>
                 <p>{display}</p>
+                </div>
                     
                 </div>
                 )}>
