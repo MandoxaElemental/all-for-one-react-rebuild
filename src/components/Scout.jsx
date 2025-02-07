@@ -52,6 +52,9 @@ const ScoutPage = () => {
     </div>
   </div>
 </div>
+<div className="header">
+    <h1>Say Hello</h1>
+  </div>
 
     </>
     )
