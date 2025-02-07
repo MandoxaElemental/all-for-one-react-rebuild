@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
 import pyroAudio from "/assets/audio/PyroAudio.wav"
+import pyroLandAudio from "/assets/audio/Taunt_pyro_balloonicorn.wav"
 
 const PyroPage = () => {
 
     function play(){
         new Audio(pyroAudio).play()
+    }
+    function pyroLand(){
+        new Audio(pyroLandAudio).play()
     }
 
     const [userInput, setUserInput] = useState('')
@@ -31,7 +35,7 @@ const PyroPage = () => {
         <div className="mercBG pyroBG">
             <div className="header">
         <h1 className="activity">Magic 8 Ball</h1>
-        <img id="goggles" src="../assets/Goggles.png" alt="goggles" /></div>
+        <img onClick={pyroLand} id="goggles" src="../assets/Goggles.png" alt="goggles" /></div>
     <img onClick={play} className="merc" id="pyro" src="../assets/characters/Pyro.png" alt="Pyro" />
     <div className="game-box">
         <div className="flex justify-center">
