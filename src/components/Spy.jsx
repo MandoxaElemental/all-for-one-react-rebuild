@@ -50,10 +50,10 @@ const SpyPage = () => {
     <>
         <div className="mercBG spyBG">
         <div className="header"><h1>Restaurant Picker</h1></div>
-    <img onClick={play} className="merc" id="spy" src="../assets/characters/Spy.png" alt="Spy" />
+    <img onClick={play} className="merc" id="spy" src="/assets/characters/Spy.png" alt="Spy" />
     <div className="game-box">
         <div className="flex justify-center">
-            <img onClick={play} className="mobileIcon" src="./" alt="spy" />
+            <img onClick={play} className="mobileIcon" src="/assets/charIcons/Spy_Icon.jpg" alt="spy" />
         </div>
         <section className="grid grid-cols-2 gap-2">
             <button onClick={FrenchBtn} id="french" className="submitBtn">French</button>
