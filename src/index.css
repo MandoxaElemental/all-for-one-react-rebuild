@@ -97,7 +97,7 @@ body {
 
 .game-box{
   background-color: rgba(128, 128, 128, 0.478);
-  margin: 20px 300px 50px 50px;
+  margin: 20px 300px 20px 50px;
   height: 450px;
   max-height: 450px;
   border-radius: 20px;
@@ -153,6 +153,15 @@ input{
   align-items: center;
   background-color: #3C3E3C;
   height: 64px;
+  padding-left: 50px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3C3E3C;
+  height: 60px;
   padding-left: 50px;
 }
 

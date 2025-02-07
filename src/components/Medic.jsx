@@ -41,7 +41,7 @@ const MedicPage = () => {
         <div>
             <button onClick={displayTxt} className="submitBtn" id="medicBtn">Enter</button>
         </div>
-        <div className="textBox flex justify-center text-xl p-2">
+        <div className="textBox flex justify-center items-center text-xl p-2">
         {
             display.length == 0 && <h1 id="result">Velcome mein Friend, you here to zchedule your appointment, ja?</h1>
         }
@@ -49,6 +49,7 @@ const MedicPage = () => {
             </div>
             <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
             </div>
+            <div className="footer"></div>
         </div>
     </>
     )

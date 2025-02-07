@@ -37,11 +37,11 @@ const PyroPage = () => {
         <div className="flex justify-center">
             <img onClick={play} className="mobileIcon" src="../assets/charIcons/Pyro_Icon.jpg" alt="pyro" />
         </div>
-        <input onChange={(event) => setUserInput(event.target.value)} type="text" id="magic8BallInput" className="bg-[#f39057b3]" />
+        <input onChange={(event) => setUserInput(event.target.value)} type="text" id="magic8BallInput" className="bg-[#f39057b3]"/>
         <div>
             <button onClick={displayTxt} className="submitBtn" id="pyroBtn">Enter</button>
         </div>
-        <div className="textBox flex justify-center text-xl p-2">
+        <div className="textBox flex justify-center items-center text-xl p-2">
         {
             display.length == 0 && <h1 id="result">... <br/> (Try asking him a question)</h1>
         }
@@ -49,6 +49,7 @@ const PyroPage = () => {
         </div>
         <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
         </div>
+        <div className="footer"></div>
     </div>
     </>
     )

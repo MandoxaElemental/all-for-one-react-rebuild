@@ -36,7 +36,7 @@ const DemomanPage = () => {
         <div>
             <button onClick={displayTxt} className="submitBtn" id="demomanBtn">Enter</button>
         </div>
-        <div className="textBox flex justify-center text-xl p-2">
+        <div className="textBox flex justify-center items-center text-xl p-2">
         {
             display.length == 0 && <h1 id="Result">Ugggghhh... Shouldn't *hic* hae drank sae much last night... Whit did ye juist say?</h1>
         }
@@ -44,6 +44,8 @@ const DemomanPage = () => {
         </div>
             <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
         </div>
+        <div className="footer"></div>
+
     </div>
     </>
     )

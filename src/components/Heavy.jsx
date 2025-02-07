@@ -41,7 +41,7 @@ const HeavyPage = () => {
         <div>
             <button onClick={displayTxt} className="submitBtn" id="heavyBtn" >Enter</button>
         </div>
-        <div className="textBox flex justify-center text-xl p-2">
+        <div className="textBox flex justify-center items-center text-xl p-2">
         {
             display.length == 0 && <h1 id="result">I am Heavy Weapons Guy. <br/> Give me two numbers to compare...</h1>
         }
@@ -49,6 +49,7 @@ const HeavyPage = () => {
         </div>
         <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
     </div>
+    <div className="footer"></div>
     </div>
     </>
     )

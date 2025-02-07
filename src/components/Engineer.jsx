@@ -36,7 +36,7 @@ const EngineerPage = () => {
         <div>
             <button onClick={displayTxt} className="submitBtn" id="engineerBtn">Enter</button>
         </div>
-        <div className="textBox flex justify-center text-xl p-2">
+        <div className="textBox flex justify-center items-center text-xl p-2">
         {
             display.length == 0 && <h1 id="result">Howdy Partner. Could you be so kind as to give a number? Any would suffice.</h1>
         }
@@ -44,6 +44,7 @@ const EngineerPage = () => {
         </div>
         <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
         </div>
+        <div className="footer"></div>
         </div>
     </>
     )

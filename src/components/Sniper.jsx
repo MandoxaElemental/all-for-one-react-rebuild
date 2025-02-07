@@ -37,7 +37,7 @@ const SniperPage = () => {
                 <div>
                     <button onClick={displayTxt} class="submitBtn" id="sniperBtn">Enter</button>
                 </div>
-                <div class="textBox flex justify-center text-xl p-2">
+                <div className="textBox flex justify-center items-center text-xl p-2">
                 {
             display.length == 0 && <h1 id="result">G'day mate, could you assist me in providing me a numbah'...</h1>
         }
@@ -45,6 +45,7 @@ const SniperPage = () => {
                 </div>
                     <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
             </div>
+            <div className="footer"></div>
         </div>
     </>
     )

@@ -63,7 +63,7 @@ const SpyPage = () => {
             <button onClick={PizzaBtn} id="pizza" className="submitBtn">Pizza</button>
             <button onClick={OtherBtn} id="other" className="submitBtn">Other</button>
         </section>
-            <div className="textBox flex justify-center text-xl p-2">
+            <div className="textBox flex justify-center items-center text-xl p-2">
             {
             display.length == 0 && <h1 id="result">If you are interested in some of the finest French Cuisine (or any other lesser meals) feel free to ask...</h1>
 
@@ -72,6 +72,7 @@ const SpyPage = () => {
             </div>
             <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
         </div>
+        <div className="footer"></div>
     </div>
     </>
     )

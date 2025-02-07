@@ -27,7 +27,7 @@ const ScoutPage = () => {
     
     return(
     <>
-        <div className="mercBG scoutBG">
+  <div className="mercBG scoutBG">
   <div className="header">
     <h1>Say Hello</h1>
   </div>
@@ -41,8 +41,8 @@ const ScoutPage = () => {
     <div>
       <button onClick={displayTxt} className="submitBtn" id="scoutBtn">Enter</button>
     </div>
-    <div className="textBox flex justify-center text-xl p-2">
-        {
+    <div className="textBox flex justify-center items-center text-xl p-2">
+    {
             display.length == 0 && <h1 id="Result">Yo... You're the new guy right? What's ya name pal?</h1>
         }
       <h1 id="result">{display}</h1>
@@ -51,10 +51,8 @@ const ScoutPage = () => {
         <Link to='/'><button className="backBtn"><h1 className="text-xl">Back</h1></button></Link>
     </div>
   </div>
+<div className="footer"></div>
 </div>
-<div className="header">
-    <h1>Say Hello</h1>
-  </div>
 
     </>
     )

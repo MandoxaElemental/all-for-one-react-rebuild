@@ -67,7 +67,7 @@ const SoldierPage = () => {
               Enter
             </button>
           </div>
-          <div className="textBox flex justify-center text-xl p-2">
+          <div className="textBox flex justify-center items-center text-xl p-2">
           {
             display.length == 0 && <h1 id="result">Listen up Maggot, give me two numbers so that I can show you how smart I truly am...</h1>
 
@@ -84,6 +84,7 @@ const SoldierPage = () => {
             </Link>
           </div>
         </div>
+        <div className="footer"></div>
       </div>
     </>
   );
