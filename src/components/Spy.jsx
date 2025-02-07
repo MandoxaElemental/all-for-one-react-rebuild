@@ -55,6 +55,7 @@ const SpyPage = () => {
         <div className="flex justify-center">
             <img onClick={play} className="mobileIcon" src="/assets/charIcons/Spy_Icon.jpg" alt="spy" />
         </div>
+        <div className="flex justify-center">
         <section className="grid grid-cols-2 gap-2">
             <button onClick={FrenchBtn} id="french" className="submitBtn">French</button>
             <button onClick={BurgerBtn} id="burger" className="submitBtn">Burger</button>
@@ -63,6 +64,7 @@ const SpyPage = () => {
             <button onClick={PizzaBtn} id="pizza" className="submitBtn">Pizza</button>
             <button onClick={OtherBtn} id="other" className="submitBtn">Other</button>
         </section>
+        </div>
             <div className="textBox flex justify-center items-center text-xl p-2">
             {
             display.length == 0 && <h1 id="result">If you are interested in some of the finest French Cuisine (or any other lesser meals) feel free to ask...</h1>

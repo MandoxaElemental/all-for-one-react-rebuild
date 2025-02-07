@@ -49,11 +49,6 @@ const MainMenuScreen = () => {
                             </div>
                             :
                             soldierHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
-                            <h3 id="job" className="job">Rapid Recovery</h3>
-                            <div className="activity"><h3 id="activity">Say Hello</h3></div>
-                            </div>
-                            :
-                            soldierHover ? <div className="infoBox"><img className="mercIcon" id="mercIcon" src="/assets/charIcons/Soldier_Icon.jpg" alt="scoutTest"/>
                             <h3 id="job" className="job">Shock & Awe</h3>
                             <div className="activity"><h3 id="activity">Add Two Numbers</h3></div>
                             </div>

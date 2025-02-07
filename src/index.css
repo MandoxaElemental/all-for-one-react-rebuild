@@ -305,4 +305,8 @@ input{
   #resultBox{
     padding: 10px;
   }
+
+  .submitBtn{
+    width: 150px;
+  }
 }
