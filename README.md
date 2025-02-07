@@ -36,5 +36,5 @@
 ### All For One React Rebuild Challenge - Vercel Link:
 [All For One React Rebuild Challenge - Build Vercel Link](https://all-for-one-react-rebuild-xi.vercel.app/)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Charles Orr
+> Comments: im loving how much effort was put into the design, only issues im seeing are 1. adding two numbers is called say hello on the menu 2. i reccommend changing the color inside your input fields to something brighter just to make it easier to read 3. maybe centering the restaurant picker buttons in mobile, aside from those things i think it looks very nice, great work :)
