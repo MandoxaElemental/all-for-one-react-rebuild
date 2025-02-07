@@ -1,5 +1,5 @@
 body {
-  background-color: #3C3E3C;
+  background-color: black;
   font-family: 'Courier New', Courier, monospace;
   color: white;
 }
@@ -173,6 +173,7 @@ input{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    height: 100%;
 }
 
 .scoutBG{
